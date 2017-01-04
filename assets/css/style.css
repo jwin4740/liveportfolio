@@ -4,6 +4,7 @@
 
 body{
 	margin: 0px;
+
 }
 
 #index{
@@ -12,7 +13,7 @@ body{
 }
 
 #contact{
-	background-image: url("../images/rocks.jpg");
+	background-image: url("../images/gray.jpg");
 	background-size: cover;
 }
 
@@ -30,10 +31,14 @@ body{
 
 
 header{
-	position: fixed;
+
 	height: 100px;
-	width: 90%;
-	margin-left: 5%;
+	margin-left: 65px;
+	margin-right: 65px;
+}
+
+#totustuus{
+	margin-top: 20px;
 }
 
 #navmain{
@@ -48,7 +53,7 @@ header{
 .navright{
 	float: right;
 	color: white;
-	padding: 40px 15px 40px 15px;
+	padding: 38.5px 15px 38.5px 15px;
 	font-weight: 700;
 	font-size: 20px;
 }
@@ -57,3 +62,66 @@ a{
 	text-decoration: none;
 	color: white;
 }
+#aboutme{
+	float: left;
+	margin: 0px 20px 0px 50px; 
+	position: relative;
+	width: 700px;
+	height: 500px;
+	border: solid 1px gray;
+	border-radius: 5px;
+	background-color: black;
+	opacity: 0.7;
+	
+}
+
+#aboutcontainer{
+	margin: 30px;
+	color: white;
+	
+
+}
+.aboutheader{
+	color: white;
+	margin: 0px;
+	padding: 20px 20px 20px 0px;
+		
+}
+.photodiv{
+	float: left;
+	margin: 0px 20px 0px 0px;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+}
+p{
+	margin: 0px 0px 5px 0px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+
+
+
+.social{
+	float: right;
+	position: relative;
+	border: solid 1px gray;
+	border-radius: 5px;
+	margin-right: 50px;
+	width: 275px;
+	height: 150px;
+	text-align: center;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.thumb{
+	width: 55px;
+	height: 55px;
+	border: solid 1px gray;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+
