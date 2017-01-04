@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+}
+
+#index{
+	background-image: url("../images/gray.jpg");
+	background-size: cover;
+}
+
+#contact{
+	background-image: url("../images/rocks.jpg");
+	background-size: cover;
+}
+
+#portfolio{
+	background-image: url("../images/gray.jpg");
+	background-size: cover;
+	
+}
+
+#about{
+	background-image: url("../images/shore.jpg");
+	background-size: cover;
+
+}
+
+
+header{
+	position: fixed;
+	height: 100px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+#navmain{
+	float: left;
+	height: 100%;
+	color: white;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 35px;
+}
+
+.navright{
+	float: right;
+	color: white;
+	padding: 40px 15px 40px 15px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
