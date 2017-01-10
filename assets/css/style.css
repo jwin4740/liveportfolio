@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-     
 }
 
 body {
@@ -28,12 +27,16 @@ body {
     background-size: cover;
 }
 
+#resume {
+    background-image: url("../images/shore.jpg");
+    background-size: cover;
+}
+
 header {
     height: 100px;
     margin-left: 65px;
     margin-right: 65px;
-
-font-family: 'Sigmar One', cursive;
+    font-family: 'Sigmar One', cursive;
 }
 
 #navmain {
@@ -56,7 +59,6 @@ font-family: 'Sigmar One', cursive;
 a {
     text-decoration: none;
     color: white;
-
 }
 
 .contactinfo {
@@ -117,8 +119,6 @@ a {
     opacity: 0.9;
 }
 
-
-
 .work {
     clear: both;
     margin: 20px 0px 10px 0px;
@@ -140,6 +140,18 @@ h4 {
     position: relative;
     width: 700px;
     height: 500px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.85;
+}
+
+#resumebox {
+    clear: both;
+    margin: auto;
+    position: relative;
+    width:50%;
+    height: 200px;
     border: solid 1px gray;
     border-radius: 5px;
     background-color: black;
@@ -193,9 +205,27 @@ p {
 }
 
 .thumb {
-    width: 55px;
-    height: 55px;
+    width: 30px;
+    height: 30px;
     border: solid 1px gray;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
 }
+
+footer {
+    clear: both;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 8%;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*#links {
+    float: right;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+*/
