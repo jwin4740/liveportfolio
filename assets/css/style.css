@@ -75,15 +75,15 @@ a {
 
 #intro {
     clear: both;
-    border: solid 1px gray;
+   
     background-color: black;
     border-radius: 5px;
     color: white;
-    margin: 100px 0px 0px 280px;
+    margin: 100px 0px 0px 0px;
     opacity: 0.6;
     text-align: center;
-    width: 800px;
-    height: 270px;
+    width: 100%;
+    height: 240px;
 }
 
 #welcome {
